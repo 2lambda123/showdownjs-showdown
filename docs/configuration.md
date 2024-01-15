@@ -1,10 +1,10 @@
 You can change Showdown's default behavior via options. 
 
-## Set option
+## Set options
 
 ### Globally
 
-Setting an option globally affects all Showdown instances.
+Setting options globally affects all Showdown instances.
 
 ```js
 showdown.setOption('optionKey', 'value');
@@ -27,11 +27,11 @@ Setting an option locally affects the specified Converter object only. You can s
     converter.setOption('optionKey', 'value');
     ```
 
-## Get option
+## Get options
 
 Showdown provides both local and global methods to retrieve previously set options:
 
-=== "getOption()"
+=== "getOption({ global: true })()"
     
     ```js
     // Global
